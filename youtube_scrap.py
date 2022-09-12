@@ -23,10 +23,10 @@ box = []
 
 #mysql connection
 conn = connect(
-    host="bj1tj4neicdlfx9e5sxi-mysql.services.clever-cloud.com",
-    user="ufgi5z1fldgybbtw",
-    password="uK0HGPH80WlVvS8j086W",
-    database = "bj1tj4neicdlfx9e5sxi"
+    host="flask-aws.cgje4yzuebxp.us-east-1.rds.amazonaws.com",
+    user="admin",
+    password="subho987",
+    database = "sys"
 )
 cursor = conn.cursor()
 
@@ -131,8 +131,8 @@ def video_data(url_video, final_url):
                 'title':vfname,
                 'parents': [{'id': videofolder}]
             })
-            # file6.SetContentFile(path)
-            # file6.Upload()
+            file6.SetContentFile(path)
+            file6.Upload()
 
         print('successfully')
     
@@ -149,14 +149,14 @@ def video_data(url_video, final_url):
     print(final_url)
     t1 = threading.Thread(target=mongo,args=(thumbnails,title,mqldata1))
     t2 = threading.Thread(target=mysql,args=(mqldata1,thumbnails,url_video))
-    # t3 = threading.Thread(target=video1,args=(final_url,))
+    t3 = threading.Thread(target=video1,args=(final_url,))
 
     t1.start()
-    # t3.start()
+    t3.start()
     t2.start()
 
     t1.join()
-    # t3.join()
+    t3.join()
     t2.join()
 
 #delete from google drive data
