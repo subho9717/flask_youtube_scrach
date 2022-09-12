@@ -22,16 +22,16 @@ $(document).ready(function(){
     videourl = $('#videourl').val()
     videounum = $('#videounum').val()
     console.log(videounum,videourl)
-    //   $.ajax({
-    //     url: "/video_url",
-    //     type: "POST",
-    //     data: {'videourl':videourl,'videounum':videounum},
+      $.ajax({
+        url: "/video_url",
+        type: "POST",
+        data: {'videourl':videourl,'videounum':videounum},
 
-    //   }).done(function(data){
-    //     console.log(data)
-    //     window.location = data;
-    //    })
-    //   e.preventDefault();
+      }).done(function(data){
+        console.log(data)
+        window.location = data;
+       })
+      e.preventDefault();
   //
   //
   });
