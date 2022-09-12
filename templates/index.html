@@ -1,0 +1,91 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section id="loader">
+  <div class="loader"></div>
+  <div class="count"></div>
+</section>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+          <img src="{{ url_for('static', filename = 'images/logo.png') }}" alt="">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse" style="justify-content: center">
+          <form class="form-inline mt-2 mt-md-0"   id="videourlform" action="/video_url" method="post">
+              <h6 style="color: white">WHAT YOUTUBE VIDEO CHALLEN YOU LOOKING FOR?</h6><br>
+            <input class="form-control mr-sm-2" type="text" placeholder="Channel video url" aria-label="Search" name="videourl" id="videourl" style="width:60%">
+           
+            <input class="form-control mr-sm-2" type="number" placeholder="NUMBER OF  VIDEO" aria-label="Search" name="videounum" id="videounum" style="width:24%">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+            <div id="errorAlert" class="alert alert-danger" role="alert" style="display:none;"></div>
+        </div>
+      </nav>
+    </header>
+
+    <main role="main" >
+
+      <div class="container marketing">
+   
+          <hr class="featurette-divider" style="margin:2rem 0">
+          {% for d in data %}
+          <div class="row featurette">
+            <div class="col-md-7">
+
+              <h5 class="featurette-heading" id="author_name" style="font-size: 25px; margin-top: 0px;">{{ d.1 }}</h5>
+              <p class="lead" style="font-size: 15px">Video Title : {{ d.5 }}</p>
+                <p class="lead" style="font-size: 15px">Video Url : <a href="{{ d.2 }}">{{ d.2 }}</a></p>
+                <p class="lead" style="font-size: 15px">Video Likes : {{ d.3 }}</p>
+                <p class="lead" style="font-size: 15px">  Number Of Comments : {{ d.4 }} </p>
+                <p class="lead" style="font-size: 15px">Video Title : <a href="{{ d.6 }}">{{ d.6 }}</a></p>
+                <form action="/video_comment" method="post">
+                  <input name = 'comment' value="{{d.7}}" hidden>
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="comment"> Click for comment</button>
+                </form>
+            </div>
+            <div class="col-sm-5">
+              <img class="featurette-image img-fluid mx-auto" src="{{ d.6 }}" data-src="holder.js/200x200/auto" alt="Generic placeholder image" style="width: 150px;height:100px">
+            </div>
+
+          </div>
+              <hr>
+          {% endfor %}
+
+
+      <!-- comment -->
+      
+      
+        <table class="table" id="comment_table" >
+        <thead>
+          <tr>
+            <th scope="col">Commenter Name</th>
+            <th scope="col">Comment</th>
+           
+          </tr>
+        </thead>
+        <tbody>
+          {% for c in cdata %}
+          <tr>
+            
+            <td>{{c.0}}</td>
+            <td>{{c.1}}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
+
+
+        <footer class="container">
+          <p class="float-right"><a href="#">Back to top</a></p>
+        </footer>
+      </div>
+   </main>
+
+
+
+
+
+{% endblock %}

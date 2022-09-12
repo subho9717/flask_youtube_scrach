@@ -1,0 +1,1560 @@
+1661873970029	geckodriver	INFO	Listening on 127.0.0.1:54627
+1661873973110	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "54628" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileU0fi4T"
+*** You are running in headless mode.
+1661873973386	Marionette	INFO	Marionette enabled
+1661873973389	Marionette	INFO	Listening on port 54639
+WebDriver BiDi listening on ws://localhost:54628
+Read port: 54639
+1661873973531	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileU0fi4T\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54628/devtools/browser/29626a37-2991-42d2-8142-9eed0e83044b
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661873975548	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-30T15:39:36Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-30T15:39:36Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-30T15:39:36Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-30T15:39:36Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-30T15:39:36Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-30T15:39:36Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[Child 20856, MediaDecoderStateMachine #1] WARNING: Decoder=2319138a600 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 20856, MediaDecoderStateMachine #1] WARNING: Decoder=2319138a600 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 20856, MediaDecoderStateMachine #1] WARNING: Decoder=2319b5f0a00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 20856, MediaDecoderStateMachine #1] WARNING: Decoder=2319b5f0a00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1661873993060	Marionette	INFO	Stopped listening on port 54639
+1661874042107	geckodriver	INFO	Listening on 127.0.0.1:54696
+1661874045163	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "54697" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofilezx6qUA"
+*** You are running in headless mode.
+1661874045426	Marionette	INFO	Marionette enabled
+1661874045430	Marionette	INFO	Listening on port 54715
+WebDriver BiDi listening on ws://localhost:54697
+Read port: 54715
+1661874045604	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofilezx6qUA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54697/devtools/browser/e1a860dd-80d9-40bd-ad8a-ffc4fc0edc6b
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661874047599	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-30T15:40:48Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-30T15:40:48Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-30T15:40:48Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-30T15:40:48Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-30T15:40:48Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[Child 19632, MediaDecoderStateMachine #1] WARNING: Decoder=186d8454400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 19632, MediaDecoderStateMachine #1] WARNING: Decoder=186d8454400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 19632, MediaDecoderStateMachine #1] WARNING: Decoder=186e49c9a00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 19632, MediaDecoderStateMachine #1] WARNING: Decoder=186e49c9a00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 19632, MediaDecoderStateMachine #1] WARNING: Decoder=186d8412a00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 19632, MediaDecoderStateMachine #1] WARNING: Decoder=186d8412a00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1661874079277	Marionette	INFO	Stopped listening on port 54715
+1661874844509	geckodriver	INFO	Listening on 127.0.0.1:54898
+1661874847567	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "54899" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofile6ITQG4"
+*** You are running in headless mode.
+1661874847876	Marionette	INFO	Marionette enabled
+1661874847880	Marionette	INFO	Listening on port 54909
+WebDriver BiDi listening on ws://localhost:54899
+Read port: 54909
+1661874847949	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofile6ITQG4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54899/devtools/browser/4b4de846-3b89-453e-9d9f-1e771d13043d
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661874850175	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-30T15:54:10Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-30T15:54:10Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-30T15:54:10Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-30T15:54:11Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-30T15:54:11Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-30T15:54:11Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-30T15:54:11Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[Child 15940, MediaDecoderStateMachine #1] WARNING: Decoder=14547512a00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 15940, MediaDecoderStateMachine #1] WARNING: Decoder=14547512a00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1661874868016	Marionette	INFO	Stopped listening on port 54909
+1661875169946	geckodriver	INFO	Listening on 127.0.0.1:55136
+1661875173020	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "55137" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileNo7FXu"
+*** You are running in headless mode.
+1661875173296	Marionette	INFO	Marionette enabled
+1661875173300	Marionette	INFO	Listening on port 55152
+WebDriver BiDi listening on ws://localhost:55137
+Read port: 55152
+1661875173475	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileNo7FXu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55137/devtools/browser/b3ce0b73-2693-430b-bf90-243b5ac756b6
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661875175451	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-30T15:59:35Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-30T15:59:36Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-30T15:59:36Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-30T15:59:36Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-30T15:59:36Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-30T15:59:36Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[Child 19724, MediaDecoderStateMachine #1] WARNING: Decoder=1b74639e600 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 19724, MediaDecoderStateMachine #1] WARNING: Decoder=1b74639e600 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 19724, MediaDecoderStateMachine #1] WARNING: Decoder=1b746311700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 19724, MediaDecoderStateMachine #1] WARNING: Decoder=1b746311700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1661875192815	Marionette	INFO	Stopped listening on port 55152
+1661953341762	geckodriver	INFO	Listening on 127.0.0.1:58452
+1661953344867	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "58453" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofilegXeOWw"
+*** You are running in headless mode.
+1661953345328	Marionette	INFO	Marionette enabled
+1661953345333	Marionette	INFO	Listening on port 58472
+WebDriver BiDi listening on ws://localhost:58453
+Read port: 58472
+1661953345560	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofilegXeOWw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58453/devtools/browser/91208a20-833c-4e3e-beac-13b699635f3b
+1661953351300	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T13:42:31Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:42:32Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:42:32Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:42:32Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:42:32Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:42:32Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:42:32Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+[Child 19592, MediaDecoderStateMachine #1] WARNING: Decoder=22b50ec3600 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 19592, MediaDecoderStateMachine #1] WARNING: Decoder=22b50ec3600 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1661953366877	Marionette	INFO	Stopped listening on port 58472
+1661953368156	geckodriver	INFO	Listening on 127.0.0.1:58520
+1661953371225	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "58521" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofile3sReik"
+*** You are running in headless mode.
+1661953371469	Marionette	INFO	Marionette enabled
+1661953371472	Marionette	INFO	Listening on port 58530
+WebDriver BiDi listening on ws://localhost:58521
+Read port: 58530
+1661953371645	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofile3sReik\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58521/devtools/browser/54590be9-c1dd-4bbc-ab5f-96288130b866
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661953374043	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T13:42:54Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:42:55Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:42:55Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:42:55Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:42:55Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:42:55Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:42:55Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:42:55Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/woHX-vsUocJZKT3Xlr8m3oSeq6S0iuLiA_v8-B2MNhs.js line 2 > eval line 4490 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/woHX-vsUocJZKT3Xlr8m3oSeq6S0iuLiA_v8-B2MNhs.js line 2 > eval line 941 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661953445865	Marionette	INFO	Stopped listening on port 58530
+1661953536111	geckodriver	INFO	Listening on 127.0.0.1:58628
+1661953539205	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "58629" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileufcPcu"
+*** You are running in headless mode.
+1661953539473	Marionette	INFO	Marionette enabled
+1661953539476	Marionette	INFO	Listening on port 58639
+WebDriver BiDi listening on ws://localhost:58629
+Read port: 58639
+1661953539655	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileufcPcu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58629/devtools/browser/b41b67c7-ec87-4e08-94d0-1a27884a127b
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661953542050	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T13:45:42Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:45:42Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:45:42Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:45:43Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:45:43Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:45:43Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:45:43Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:45:43Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+1661953548614	Marionette	INFO	Stopped listening on port 58639
+1661953550256	geckodriver	INFO	Listening on 127.0.0.1:58691
+1661953553318	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "58692" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofiledGv4i4"
+*** You are running in headless mode.
+1661953553553	Marionette	INFO	Marionette enabled
+1661953553556	Marionette	INFO	Listening on port 58701
+WebDriver BiDi listening on ws://localhost:58692
+Read port: 58701
+1661953553735	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofiledGv4i4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58692/devtools/browser/f9f759c5-200e-42c5-ade3-40dd4d1b2b15
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661953556039	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T13:45:56Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:45:56Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:45:56Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:45:57Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:45:57Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:45:57Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:45:57Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/woHX-vsUocJZKT3Xlr8m3oSeq6S0iuLiA_v8-B2MNhs.js line 2 > eval line 4822 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 17756, MediaDecoderStateMachine #1] WARNING: Decoder=218b143aa00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 17756, MediaDecoderStateMachine #1] WARNING: Decoder=218b143aa00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+JavaScript warning: https://pagead2.googlesyndication.com/bg/woHX-vsUocJZKT3Xlr8m3oSeq6S0iuLiA_v8-B2MNhs.js line 2 > eval line 2358 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661953624166	Marionette	INFO	Stopped listening on port 58701
+1661953626025	geckodriver	INFO	Listening on 127.0.0.1:58764
+1661953629090	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "58765" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofile2cQtOu"
+*** You are running in headless mode.
+1661953629330	Marionette	INFO	Marionette enabled
+1661953629333	Marionette	INFO	Listening on port 58774
+WebDriver BiDi listening on ws://localhost:58765
+Read port: 58774
+1661953629511	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofile2cQtOu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58765/devtools/browser/a5f6ccda-fda6-48e2-9d7f-858f6d508bdc
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661953632516	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T13:47:12Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:47:12Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:47:13Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:47:13Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:47:14Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:47:14Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:47:14Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:47:14Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/woHX-vsUocJZKT3Xlr8m3oSeq6S0iuLiA_v8-B2MNhs.js line 2 > eval line 4047 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/woHX-vsUocJZKT3Xlr8m3oSeq6S0iuLiA_v8-B2MNhs.js line 2 > eval line 3249 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661953690232	Marionette	INFO	Stopped listening on port 58774
+1661953691916	geckodriver	INFO	Listening on 127.0.0.1:58856
+1661953694953	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "58857" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofilew9xwh0"
+*** You are running in headless mode.
+1661953695197	Marionette	INFO	Marionette enabled
+1661953695201	Marionette	INFO	Listening on port 58887
+WebDriver BiDi listening on ws://localhost:58857
+Read port: 58887
+1661953695370	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofilew9xwh0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58857/devtools/browser/4f64cd93-887c-43c9-bf2d-165f57fb50a2
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661953697862	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T13:48:19Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:48:19Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:48:19Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:48:19Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:48:19Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:48:19Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:48:19Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:48:19Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/woHX-vsUocJZKT3Xlr8m3oSeq6S0iuLiA_v8-B2MNhs.js line 2 > eval line 3472 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/woHX-vsUocJZKT3Xlr8m3oSeq6S0iuLiA_v8-B2MNhs.js line 2 > eval line 3987 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661953741725	geckodriver	INFO	Listening on 127.0.0.1:58947
+1661953744776	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "58948" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofile3ykXnK"
+*** You are running in headless mode.
+1661953745013	Marionette	INFO	Marionette enabled
+1661953745016	Marionette	INFO	Listening on port 58957
+WebDriver BiDi listening on ws://localhost:58948
+Read port: 58957
+1661953745194	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofile3ykXnK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58948/devtools/browser/5746ddd3-a723-48b7-a2cc-0973c9e4d0ec
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661953747626	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T13:49:08Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:49:08Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:49:08Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:49:08Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:49:08Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T13:49:08Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[Child 15980, MediaDecoderStateMachine #1] WARNING: Decoder=1e9f5750c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 15980, MediaDecoderStateMachine #1] WARNING: Decoder=1e9f5750c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 15980, MediaDecoderStateMachine #1] WARNING: Decoder=1e9f5711700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 15980, MediaDecoderStateMachine #1] WARNING: Decoder=1e9f5711700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1661953764470	Marionette	INFO	Stopped listening on port 58957
+1661965375194	geckodriver	INFO	Listening on 127.0.0.1:60635
+1661965378250	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "60636" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofilevtuxkd"
+*** You are running in headless mode.
+1661965378500	Marionette	INFO	Marionette enabled
+1661965378503	Marionette	INFO	Listening on port 60655
+WebDriver BiDi listening on ws://localhost:60636
+Read port: 60655
+1661965378681	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofilevtuxkd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60636/devtools/browser/d026f4ae-c933-4c9f-aae7-9d1067ab455a
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661965380622	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T17:03:12Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:03:12Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:03:12Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:03:12Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[Child 2912, MediaDecoderStateMachine #1] WARNING: Decoder=1a7963e7700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 2912, MediaDecoderStateMachine #1] WARNING: Decoder=1a7963e7700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 2912, MediaDecoderStateMachine #1] WARNING: Decoder=1a7963e7d00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 2912, MediaDecoderStateMachine #1] WARNING: Decoder=1a7963e7d00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 2912, MediaDecoderStateMachine #1] WARNING: Decoder=1a7962bb600 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 2912, MediaDecoderStateMachine #1] WARNING: Decoder=1a7962bb600 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 2912, MediaDecoderStateMachine #1] WARNING: Decoder=1a793db6500 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 2912, MediaDecoderStateMachine #1] WARNING: Decoder=1a793db6500 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1661965397886	Marionette	INFO	Stopped listening on port 60655
+1661965399339	geckodriver	INFO	Listening on 127.0.0.1:60743
+1661965402415	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "60744" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofile9brcFP"
+*** You are running in headless mode.
+1661965402694	Marionette	INFO	Marionette enabled
+1661965402698	Marionette	INFO	Listening on port 60764
+WebDriver BiDi listening on ws://localhost:60744
+Read port: 60764
+1661965402776	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofile9brcFP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60744/devtools/browser/85c4d36d-e805-45ac-bdaf-c830a511741f
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661965405443	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T17:03:25Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:03:25Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:03:25Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:03:26Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:03:26Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:03:26Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:03:27Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:03:27Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 6382 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 6644 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661965484186	Marionette	INFO	Stopped listening on port 60764
+1661965485597	geckodriver	INFO	Listening on 127.0.0.1:60881
+1661965488665	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "60882" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofilew323XR"
+*** You are running in headless mode.
+1661965541320	geckodriver	INFO	Listening on 127.0.0.1:60901
+1661965544395	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "60902" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileRug6w4"
+*** You are running in headless mode.
+1661965544638	Marionette	INFO	Marionette enabled
+1661965544641	Marionette	INFO	Listening on port 60911
+WebDriver BiDi listening on ws://localhost:60902
+Read port: 60911
+1661965544815	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileRug6w4\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60902/devtools/browser/f1bc045c-b0e3-4365-aff9-09fc02359a38
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661965546697	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T17:05:47Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:05:47Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:05:47Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:05:47Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:05:47Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:05:47Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+[Child 17996, MediaDecoderStateMachine #1] WARNING: Decoder=21a0d8f2700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 17996, MediaDecoderStateMachine #1] WARNING: Decoder=21a0d8f2700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 17996, MediaDecoderStateMachine #1] WARNING: Decoder=21a05759100 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 17996, MediaDecoderStateMachine #1] WARNING: Decoder=21a05759100 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[2022-08-31T17:06:05Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:06:05Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:06:05Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 6660 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[2022-08-31T17:06:07Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 6426 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661965630318	Marionette	INFO	Stopped listening on port 60911
+1661965781895	geckodriver	INFO	Listening on 127.0.0.1:61043
+1661965784953	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "61044" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofilevEZU9L"
+*** You are running in headless mode.
+1661965785350	Marionette	INFO	Marionette enabled
+1661965785354	Marionette	INFO	Listening on port 61063
+WebDriver BiDi listening on ws://localhost:61044
+Read port: 61063
+1661965785438	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofilevEZU9L\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61044/devtools/browser/faf3c5c2-e03c-4804-b844-188cd31aba81
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661965787965	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T17:09:49Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:09:49Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:09:49Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:09:49Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:09:49Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:09:49Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:09:49Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:09:49Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+1661965794760	Marionette	INFO	Stopped listening on port 61063
+1661965902050	geckodriver	INFO	Listening on 127.0.0.1:61144
+1661965905120	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "61145" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofilewmL1RQ"
+*** You are running in headless mode.
+1661965905415	Marionette	INFO	Marionette enabled
+1661965905419	Marionette	INFO	Listening on port 61154
+WebDriver BiDi listening on ws://localhost:61145
+Read port: 61154
+1661965905498	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofilewmL1RQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61145/devtools/browser/07debafb-4a75-4808-9360-22c9f536fcb1
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661965907942	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T17:11:49Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:11:49Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:11:49Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:11:49Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:11:51Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[Child 15664, MediaDecoderStateMachine #1] WARNING: Decoder=2118fe58700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 15664, MediaDecoderStateMachine #1] WARNING: Decoder=2118fe58700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 15664, MediaDecoderStateMachine #1] WARNING: Decoder=2118e69e500 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 15664, MediaDecoderStateMachine #1] WARNING: Decoder=2118e69e500 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 15664, MediaDecoderStateMachine #1] WARNING: Decoder=21182f84600 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 15664, MediaDecoderStateMachine #1] WARNING: Decoder=21182f84600 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1661965924966	Marionette	INFO	Stopped listening on port 61154
+1661966116960	geckodriver	INFO	Listening on 127.0.0.1:61268
+1661966120026	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "61269" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileb6m8ir"
+*** You are running in headless mode.
+1661966120318	Marionette	INFO	Marionette enabled
+1661966120322	Marionette	INFO	Listening on port 61289
+WebDriver BiDi listening on ws://localhost:61269
+Read port: 61289
+1661966120413	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileb6m8ir\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61269/devtools/browser/6e6bef29-be9f-4fb3-9041-f2adcf1e6a72
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661966123079	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T17:15:24Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:15:24Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:15:24Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:15:24Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:15:24Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:15:24Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:15:24Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:15:24Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+1661966130495	Marionette	INFO	Stopped listening on port 61289
+1661966141880	geckodriver	INFO	Listening on 127.0.0.1:61346
+1661966144951	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "61347" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileq9Zolx"
+*** You are running in headless mode.
+1661966145238	Marionette	INFO	Marionette enabled
+1661966145241	Marionette	INFO	Listening on port 61356
+WebDriver BiDi listening on ws://localhost:61347
+Read port: 61356
+1661966145323	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileq9Zolx\\search.json.mozlz4", (void 0)))
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+DevTools listening on ws://localhost:61347/devtools/browser/34cf5ede-49ce-41e1-bc5d-0f09706e4b30
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661966147768	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T17:15:49Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:15:49Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:15:49Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:15:49Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:15:49Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:15:51Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[Child 8564, MediaDecoderStateMachine #1] WARNING: Decoder=1c467d3f700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 8564, MediaDecoderStateMachine #1] WARNING: Decoder=1c467d3f700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1661966165320	Marionette	INFO	Stopped listening on port 61356
+1661966275455	geckodriver	INFO	Listening on 127.0.0.1:61431
+1661966278520	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "61432" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileNivauR"
+*** You are running in headless mode.
+1661966278812	Marionette	INFO	Marionette enabled
+1661966278816	Marionette	INFO	Listening on port 61441
+WebDriver BiDi listening on ws://localhost:61432
+Read port: 61441
+1661966278895	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileNivauR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61432/devtools/browser/fbf833b8-38e8-4d6d-8a7c-d31dba36d2c0
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661966281368	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T17:18:12Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:18:12Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:18:12Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:18:12Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[Child 1188, MediaDecoderStateMachine #1] WARNING: Decoder=20e50918a00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 1188, MediaDecoderStateMachine #1] WARNING: Decoder=20e50918a00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 1188, MediaDecoderStateMachine #1] WARNING: Decoder=20e5093e800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 1188, MediaDecoderStateMachine #1] WARNING: Decoder=20e5093e800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 1188, MediaDecoderStateMachine #1] WARNING: Decoder=20e5cbb3200 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 1188, MediaDecoderStateMachine #1] WARNING: Decoder=20e5cbb3200 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 1188, MediaDecoderStateMachine #1] WARNING: Decoder=20e5cbce400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 1188, MediaDecoderStateMachine #1] WARNING: Decoder=20e5cbce400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1661966298494	Marionette	INFO	Stopped listening on port 61441
+1661966300138	geckodriver	INFO	Listening on 127.0.0.1:61501
+1661966303202	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "61502" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofile7KShYl"
+*** You are running in headless mode.
+1661966303536	Marionette	INFO	Marionette enabled
+1661966303542	Marionette	INFO	Listening on port 61511
+WebDriver BiDi listening on ws://localhost:61502
+Read port: 61511
+1661966303774	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofile7KShYl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61502/devtools/browser/8e15fd02-2766-4bbb-89d5-4f7ab35c65cc
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661966306340	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T17:18:26Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:18:27Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:18:27Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:18:27Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:18:27Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:18:27Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:18:28Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:18:28Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 4188 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 4734 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661966371719	Marionette	INFO	Stopped listening on port 61511
+1661966373561	geckodriver	INFO	Listening on 127.0.0.1:61575
+1661966376602	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "61576" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofilegS4GOu"
+*** You are running in headless mode.
+1661966376927	Marionette	INFO	Marionette enabled
+1661966376931	Marionette	INFO	Listening on port 61585
+WebDriver BiDi listening on ws://localhost:61576
+Read port: 61585
+1661966377015	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofilegS4GOu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61576/devtools/browser/8c0460b1-fa57-4358-99fa-9357ea6dba19
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661966380161	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T17:19:42Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:19:42Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:19:42Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:19:42Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:19:42Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:19:42Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:19:42Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:19:42Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 1428 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 521 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661966457084	Marionette	INFO	Stopped listening on port 61585
+1661966458943	geckodriver	INFO	Listening on 127.0.0.1:61697
+1661966461993	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "61698" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileZUQI6J"
+*** You are running in headless mode.
+1661966462533	Marionette	INFO	Marionette enabled
+1661966462537	Marionette	INFO	Listening on port 61717
+WebDriver BiDi listening on ws://localhost:61698
+Read port: 61717
+1661966462617	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileZUQI6J\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61698/devtools/browser/7a65a210-7afc-4502-83a9-a8f658111dea
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661966466505	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T17:21:06Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:21:06Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:21:06Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:21:08Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:21:08Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:21:08Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:21:08Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 5691 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 1208, MediaDecoderStateMachine #1] WARNING: Decoder=23d5f148a00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 1208, MediaDecoderStateMachine #1] WARNING: Decoder=23d5f148a00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 5709 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661966556400	Marionette	INFO	Stopped listening on port 61717
+1661966558394	geckodriver	INFO	Listening on 127.0.0.1:61798
+1661966561446	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "61799" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofilenv2XKP"
+*** You are running in headless mode.
+1661966561779	Marionette	INFO	Marionette enabled
+1661966561783	Marionette	INFO	Listening on port 61809
+Read port: 61809
+WebDriver BiDi listening on ws://localhost:61799
+1661966561898	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofilenv2XKP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61799/devtools/browser/392df2e1-2fa1-4499-973b-a5e5f78ab60f
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661966565888	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 2447 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[2022-08-31T17:22:49Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:22:49Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:22:49Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:22:49Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:22:49Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:22:49Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:22:49Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[Child 2588, MediaDecoderStateMachine #1] WARNING: Decoder=12f6049d300 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 2588, MediaDecoderStateMachine #1] WARNING: Decoder=12f6049d300 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 980 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661966653013	Marionette	INFO	Stopped listening on port 61809
+1661966655251	geckodriver	INFO	Listening on 127.0.0.1:61897
+1661966658321	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "61898" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileaIefCl"
+*** You are running in headless mode.
+1661966658920	Marionette	INFO	Marionette enabled
+1661966658930	Marionette	INFO	Listening on port 61907
+WebDriver BiDi listening on ws://localhost:61898
+Read port: 61907
+1661966659103	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileaIefCl\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61898/devtools/browser/ba13692f-0856-4444-bf64-784e12b9ffe1
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661966665206	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T17:24:27Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:24:27Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:24:27Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:24:27Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:24:27Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:24:27Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:24:27Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:24:27Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 4425 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 1019 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661966732083	Marionette	INFO	Stopped listening on port 61907
+1661967513519	geckodriver	INFO	Listening on 127.0.0.1:62144
+1661967516584	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "62145" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileXKPIbD"
+*** You are running in headless mode.
+1661967516921	Marionette	INFO	Marionette enabled
+1661967516926	Marionette	INFO	Listening on port 62159
+WebDriver BiDi listening on ws://localhost:62145
+Read port: 62159
+1661967517159	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileXKPIbD\\search.json.mozlz4", (void 0)))
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+DevTools listening on ws://localhost:62145/devtools/browser/eaaaee75-2215-4fde-8de5-19d95e281a41
+1661967519592	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T17:38:40Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:38:40Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:38:40Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:38:53Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[Child 10328, MediaDecoderStateMachine #1] WARNING: Decoder=1f2087aed00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 10328, MediaDecoderStateMachine #1] WARNING: Decoder=1f2087aed00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 10328, MediaDecoderStateMachine #1] WARNING: Decoder=1f2087af900 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 10328, MediaDecoderStateMachine #1] WARNING: Decoder=1f2087af900 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 10328, MediaDecoderStateMachine #1] WARNING: Decoder=1f208716700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 10328, MediaDecoderStateMachine #1] WARNING: Decoder=1f208716700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 10328, MediaDecoderStateMachine #1] WARNING: Decoder=1f2149bd700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 10328, MediaDecoderStateMachine #1] WARNING: Decoder=1f2149bd700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1661967539069	Marionette	INFO	Stopped listening on port 62159
+1661967540781	geckodriver	INFO	Listening on 127.0.0.1:62220
+1661967543871	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "62221" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofile899bH2"
+*** You are running in headless mode.
+1661967544238	Marionette	INFO	Marionette enabled
+1661967544242	Marionette	INFO	Listening on port 62230
+WebDriver BiDi listening on ws://localhost:62221
+Read port: 62230
+1661967544447	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofile899bH2\\search.json.mozlz4", (void 0)))
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+DevTools listening on ws://localhost:62221/devtools/browser/0b51d35f-3b9b-43f2-8bdc-a1f9b356fce3
+1661967547325	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T17:39:09Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:39:09Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:39:09Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:39:09Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:39:09Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:39:09Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:39:09Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:39:09Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 4709 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 6766 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661967617355	Marionette	INFO	Stopped listening on port 62230
+1661967619791	geckodriver	INFO	Listening on 127.0.0.1:62298
+1661967622860	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "62299" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileYjyLjR"
+*** You are running in headless mode.
+1661967623300	Marionette	INFO	Marionette enabled
+1661967623305	Marionette	INFO	Listening on port 62316
+WebDriver BiDi listening on ws://localhost:62299
+Read port: 62316
+1661967623528	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileYjyLjR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62299/devtools/browser/caac9907-5b40-45d7-90fd-f9ae545db1e4
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661967626385	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T17:40:28Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:40:28Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:40:28Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:40:28Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:40:28Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:40:28Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:40:29Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:40:29Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 822 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 7026 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661967713664	Marionette	INFO	Stopped listening on port 62316
+1661967715669	geckodriver	INFO	Listening on 127.0.0.1:62372
+1661967718754	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "62373" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileGj5VaY"
+*** You are running in headless mode.
+1661967719342	Marionette	INFO	Marionette enabled
+1661967719350	Marionette	INFO	Listening on port 62389
+WebDriver BiDi listening on ws://localhost:62373
+Read port: 62389
+1661967719488	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileGj5VaY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62373/devtools/browser/b7d5f9e0-2667-4858-acef-edb5d45d96c3
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661967724224	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T17:42:04Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:42:04Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:42:06Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:42:06Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:42:06Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:42:06Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 2457 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[2022-08-31T17:42:08Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:42:08Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 6321 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661967806759	Marionette	INFO	Stopped listening on port 62389
+1661967808713	geckodriver	INFO	Listening on 127.0.0.1:62494
+1661967811793	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "62495" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofiletexZQE"
+*** You are running in headless mode.
+1661967812175	Marionette	INFO	Marionette enabled
+1661967812180	Marionette	INFO	Listening on port 62504
+WebDriver BiDi listening on ws://localhost:62495
+Read port: 62504
+1661967812287	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofiletexZQE\\search.json.mozlz4", (void 0)))
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+DevTools listening on ws://localhost:62495/devtools/browser/bef26a06-f4a1-4931-b51f-2b1434fa64d5
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661967815034	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T17:43:35Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:43:35Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:43:35Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:43:36Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:43:36Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:43:36Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:43:37Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 5621 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 16056, MediaDecoderStateMachine #1] WARNING: Decoder=1f2a0931100 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 16056, MediaDecoderStateMachine #1] WARNING: Decoder=1f2a0931100 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 2882 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661967906052	Marionette	INFO	Stopped listening on port 62504
+1661967907413	geckodriver	INFO	Listening on 127.0.0.1:62642
+1661967910477	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "62643" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileKBSl1D"
+*** You are running in headless mode.
+1661967910719	Marionette	INFO	Marionette enabled
+1661967910722	Marionette	INFO	Listening on port 62662
+WebDriver BiDi listening on ws://localhost:62643
+Read port: 62662
+1661967910903	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileKBSl1D\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62643/devtools/browser/f49bdbb6-77c5-4cd9-8d67-3fada089a825
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+[2022-08-31T17:45:14Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:45:14Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:45:14Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:45:14Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 1873 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 3884 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661967988064	Marionette	INFO	Stopped listening on port 62662
+1661967989666	geckodriver	INFO	Listening on 127.0.0.1:62740
+1661967992746	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "62741" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofiledoWPje"
+*** You are running in headless mode.
+1661967992995	Marionette	INFO	Marionette enabled
+1661967992999	Marionette	INFO	Listening on port 62750
+WebDriver BiDi listening on ws://localhost:62741
+Read port: 62750
+1661967993183	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofiledoWPje\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62741/devtools/browser/2c2722e9-a163-4385-b62a-7de2cd50fe0e
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661967995403	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T17:46:35Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:46:35Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:46:36Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:46:36Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:46:36Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:46:36Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 3458 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[2022-08-31T17:46:39Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:46:39Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 5174 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661968075269	Marionette	INFO	Stopped listening on port 62750
+1661968076752	geckodriver	INFO	Listening on 127.0.0.1:62821
+1661968079832	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "62822" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofiled8nGZM"
+*** You are running in headless mode.
+1661968080078	Marionette	INFO	Marionette enabled
+1661968080081	Marionette	INFO	Listening on port 62831
+WebDriver BiDi listening on ws://localhost:62822
+Read port: 62831
+1661968080258	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofiled8nGZM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62822/devtools/browser/e41b2145-9c93-4263-b16a-38c8e59f07be
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661968082662	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T17:48:04Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:48:04Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:48:04Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:48:04Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:48:04Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:48:04Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:48:04Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:48:04Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 6979 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 1056 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661968160954	Marionette	INFO	Stopped listening on port 62831
+1661968162701	geckodriver	INFO	Listening on 127.0.0.1:62899
+1661968165755	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "62900" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofile6ovTMz"
+*** You are running in headless mode.
+1661968166053	Marionette	INFO	Marionette enabled
+1661968166059	Marionette	INFO	Listening on port 62909
+WebDriver BiDi listening on ws://localhost:62900
+Read port: 62909
+1661968166152	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofile6ovTMz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62900/devtools/browser/403b7ec3-6ee5-4925-b7dc-a003357f76fb
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661968168941	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T17:49:30Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:49:30Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:49:30Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:49:30Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:49:30Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:49:30Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:49:30Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:49:30Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 6956 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 2737 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661968309166	Marionette	INFO	Stopped listening on port 62909
+!!! error running onStopped callback: TypeError: callback is not a function
+1661968310878	geckodriver	INFO	Listening on 127.0.0.1:63042
+1661968313946	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "63043" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofile17Krbn"
+*** You are running in headless mode.
+1661968314189	Marionette	INFO	Marionette enabled
+1661968314193	Marionette	INFO	Listening on port 63074
+WebDriver BiDi listening on ws://localhost:63043
+Read port: 63074
+1661968314367	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofile17Krbn\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63043/devtools/browser/b5198e7f-072f-496e-9661-47695576953b
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661968316400	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T17:51:57Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:51:57Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:51:57Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:51:57Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:51:57Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:51:57Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:51:57Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:51:57Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+1661968322167	Marionette	INFO	Stopped listening on port 63074
+1661968323923	geckodriver	INFO	Listening on 127.0.0.1:63149
+1661968326967	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "63150" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofile6QepiT"
+*** You are running in headless mode.
+1661968327231	Marionette	INFO	Marionette enabled
+1661968327235	Marionette	INFO	Listening on port 63161
+WebDriver BiDi listening on ws://localhost:63150
+Read port: 63161
+1661968327419	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofile6QepiT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63150/devtools/browser/3fab8bae-d650-4748-98f3-bf9bbcb82c7e
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661968330228	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T17:52:10Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:52:11Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:52:11Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:52:11Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:52:11Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:52:11Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:52:11Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:52:11Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 5171 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 1868 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661968411821	Marionette	INFO	Stopped listening on port 63161
+1661968413335	geckodriver	INFO	Listening on 127.0.0.1:63274
+1661968416404	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "63275" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileavQ46g"
+*** You are running in headless mode.
+1661968416646	Marionette	INFO	Marionette enabled
+1661968416649	Marionette	INFO	Listening on port 63294
+WebDriver BiDi listening on ws://localhost:63275
+Read port: 63294
+1661968416828	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileavQ46g\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63275/devtools/browser/b16bd28d-dd8b-47d1-91e0-8b30bf2ca871
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661968419121	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T17:53:40Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:53:40Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:53:40Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:53:40Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:53:40Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:53:40Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:53:40Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:53:40Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 1546 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 4464 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661968532029	Marionette	INFO	Stopped listening on port 63294
+1661968533801	geckodriver	INFO	Listening on 127.0.0.1:63377
+1661968536844	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "63378" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileptEJQV"
+*** You are running in headless mode.
+1661968537125	Marionette	INFO	Marionette enabled
+1661968537129	Marionette	INFO	Listening on port 63387
+WebDriver BiDi listening on ws://localhost:63378
+Read port: 63387
+1661968537207	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileptEJQV\\search.json.mozlz4", (void 0)))
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+DevTools listening on ws://localhost:63378/devtools/browser/91c038a2-f902-4ff9-9184-3c59a3e21446
+1661968539843	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T17:55:41Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:55:41Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:55:41Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:55:41Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:55:41Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:55:41Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:55:41Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:55:41Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+1661968618878	Marionette	INFO	Stopped listening on port 63387
+1661968620704	geckodriver	INFO	Listening on 127.0.0.1:63451
+1661968623736	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "63452" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileOkdK5w"
+*** You are running in headless mode.
+1661968624012	Marionette	INFO	Marionette enabled
+1661968624015	Marionette	INFO	Listening on port 63463
+WebDriver BiDi listening on ws://localhost:63452
+Read port: 63463
+1661968624162	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileOkdK5w\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63452/devtools/browser/95dcdace-d3a6-428a-9eb4-6bf8ffe362ca
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661968626435	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T17:57:06Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:57:07Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:57:07Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:57:07Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:57:07Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:57:07Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:57:07Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:57:07Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 5665 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 5206 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661968711743	Marionette	INFO	Stopped listening on port 63463
+1661968713392	geckodriver	INFO	Listening on 127.0.0.1:63549
+1661968716441	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "63550" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofile8Toukf"
+*** You are running in headless mode.
+1661968716681	Marionette	INFO	Marionette enabled
+1661968716685	Marionette	INFO	Listening on port 63566
+WebDriver BiDi listening on ws://localhost:63550
+Read port: 63566
+1661968716853	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofile8Toukf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63550/devtools/browser/f16c3177-2c01-4ee1-b04f-090b00581707
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661968719298	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T17:58:39Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:58:40Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:58:40Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:58:40Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:58:40Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:58:40Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:58:40Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T17:58:40Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 6085 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 7261 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661968799411	Marionette	INFO	Stopped listening on port 63566
+1661968801060	geckodriver	INFO	Listening on 127.0.0.1:63668
+1661968804140	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "63669" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofile9iRtDY"
+*** You are running in headless mode.
+1661968804378	Marionette	INFO	Marionette enabled
+1661968804382	Marionette	INFO	Listening on port 63688
+WebDriver BiDi listening on ws://localhost:63669
+Read port: 63688
+1661968804558	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofile9iRtDY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63669/devtools/browser/c11b9af7-670c-4f51-8c4c-41df5dea4d3d
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661968806717	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T18:00:06Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:00:07Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:00:08Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:00:08Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:00:08Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:00:08Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:00:08Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:00:08Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 7301 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 7456 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661968887504	Marionette	INFO	Stopped listening on port 63688
+1661968967849	geckodriver	INFO	Listening on 127.0.0.1:63818
+1661968970924	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "63819" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileqILoTi"
+*** You are running in headless mode.
+1661968971161	Marionette	INFO	Marionette enabled
+1661968971165	Marionette	INFO	Listening on port 63828
+WebDriver BiDi listening on ws://localhost:63819
+Read port: 63828
+1661968971339	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileqILoTi\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63819/devtools/browser/46cc9544-d16d-4df3-951b-11a492421ae3
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661968973298	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T18:02:54Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:02:54Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:02:54Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:02:54Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:02:54Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:02:54Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:02:54Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[Child 18296, MediaDecoderStateMachine #1] WARNING: Decoder=15dc6213700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 18296, MediaDecoderStateMachine #1] WARNING: Decoder=15dc6213700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1661968990509	Marionette	INFO	Stopped listening on port 63828
+1661968992085	geckodriver	INFO	Listening on 127.0.0.1:63883
+1661968995159	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "63884" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileHqPqfF"
+*** You are running in headless mode.
+1661968995398	Marionette	INFO	Marionette enabled
+1661968995401	Marionette	INFO	Listening on port 63893
+WebDriver BiDi listening on ws://localhost:63884
+Read port: 63893
+1661968995579	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileHqPqfF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63884/devtools/browser/4d7fb321-c8db-4827-92f1-5129245567a8
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661968997701	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T18:03:18Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:03:18Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:03:18Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:03:18Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:03:19Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:03:19Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:03:19Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:03:19Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 5360 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 7482 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661969060302	Marionette	INFO	Stopped listening on port 63893
+1661969064248	geckodriver	INFO	Listening on 127.0.0.1:63961
+1661969067312	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "63962" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofilegK4q0b"
+*** You are running in headless mode.
+1661969067549	Marionette	INFO	Marionette enabled
+1661969067553	Marionette	INFO	Listening on port 63971
+WebDriver BiDi listening on ws://localhost:63962
+Read port: 63971
+1661969067727	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofilegK4q0b\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63962/devtools/browser/bde72753-0346-4a6f-90e9-c29c037f42f8
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661969069993	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T18:04:31Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:04:31Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:04:31Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:04:31Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:04:31Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:04:31Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:04:31Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[Child 21492, MediaDecoderStateMachine #1] WARNING: Decoder=1c8cd59fc00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 21492, MediaDecoderStateMachine #1] WARNING: Decoder=1c8cd59fc00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1661969163275	geckodriver	INFO	Listening on 127.0.0.1:64042
+1661969166313	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "64043" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileDoXKgQ"
+*** You are running in headless mode.
+1661969166553	Marionette	INFO	Marionette enabled
+1661969166558	Marionette	INFO	Listening on port 64062
+WebDriver BiDi listening on ws://localhost:64043
+Read port: 64062
+1661969166740	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileDoXKgQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64043/devtools/browser/0440440d-2062-4f87-aa51-a5195c087fe5
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661969168717	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T18:06:09Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:06:09Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:06:09Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:06:09Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:06:09Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:06:09Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[Child 19648, MediaDecoderStateMachine #1] WARNING: Decoder=229dd167700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 19648, MediaDecoderStateMachine #1] WARNING: Decoder=229dd167700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 19648, MediaDecoderStateMachine #1] WARNING: Decoder=229db78a900 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 19648, MediaDecoderStateMachine #1] WARNING: Decoder=229db78a900 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1661969185924	Marionette	INFO	Stopped listening on port 64062
+1661969187721	geckodriver	INFO	Listening on 127.0.0.1:64119
+1661969190776	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "64120" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileM0jION"
+*** You are running in headless mode.
+1661969191045	Marionette	INFO	Marionette enabled
+1661969191048	Marionette	INFO	Listening on port 64140
+WebDriver BiDi listening on ws://localhost:64120
+Read port: 64140
+1661969191221	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileM0jION\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64120/devtools/browser/519e4eee-af6b-4f42-8c5d-046c8fd93a7c
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661969193332	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T18:06:34Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:06:34Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:06:34Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:06:34Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:06:34Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:06:34Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:06:34Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:06:34Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 3040 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 2071 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661969259938	Marionette	INFO	Stopped listening on port 64140
+1661969417942	geckodriver	INFO	Listening on 127.0.0.1:64308
+1661969421017	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "64309" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofile31f7yN"
+*** You are running in headless mode.
+1661969421257	Marionette	INFO	Marionette enabled
+1661969421260	Marionette	INFO	Listening on port 64320
+WebDriver BiDi listening on ws://localhost:64309
+Read port: 64320
+1661969421434	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofile31f7yN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64309/devtools/browser/6acc86ad-6636-427c-927e-10014cb845f2
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661969423349	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T18:10:24Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:10:24Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:10:24Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:10:24Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:10:24Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[Child 20368, MediaDecoderStateMachine #1] WARNING: Decoder=1689fd12700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 20368, MediaDecoderStateMachine #1] WARNING: Decoder=1689fd12700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 20368, MediaDecoderStateMachine #1] WARNING: Decoder=1689fd6d100 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 20368, MediaDecoderStateMachine #1] WARNING: Decoder=1689fd6d100 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 20368, MediaDecoderStateMachine #1] WARNING: Decoder=168ac2dba00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 20368, MediaDecoderStateMachine #1] WARNING: Decoder=168ac2dba00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1661969440417	Marionette	INFO	Stopped listening on port 64320
+1661969441989	geckodriver	INFO	Listening on 127.0.0.1:64382
+1661969445068	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "64383" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileCjwtxa"
+*** You are running in headless mode.
+1661969445305	Marionette	INFO	Marionette enabled
+1661969445308	Marionette	INFO	Listening on port 64393
+WebDriver BiDi listening on ws://localhost:64383
+Read port: 64393
+1661969445497	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileCjwtxa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64383/devtools/browser/f2dbab0e-10a5-40b8-a474-b641b2a1cd0f
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661969447664	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T18:10:48Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:10:48Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:10:48Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:10:48Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:10:49Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:10:49Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:10:49Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:10:49Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 6883 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 3021 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661969512235	Marionette	INFO	Stopped listening on port 64393
+1661969515962	geckodriver	INFO	Listening on 127.0.0.1:64459
+1661969518986	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "64460" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofilepFoMFM"
+*** You are running in headless mode.
+1661969519230	Marionette	INFO	Marionette enabled
+1661969519233	Marionette	INFO	Listening on port 64479
+WebDriver BiDi listening on ws://localhost:64460
+Read port: 64479
+1661969519409	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofilepFoMFM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64460/devtools/browser/6f5dafab-914d-4b9c-afa6-fa3a5fa9272d
+console.error: services.settings: 
+  main/query-stripping Signature failed  InvalidSignatureError: Invalid content signature (main/query-stripping)
+console.error: services.settings: 
+  main/query-stripping local data was corrupted
+console.warn: services.settings: main/query-stripping Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/query-stripping Signature failed again InvalidSignatureError: Invalid content signature (main/query-stripping)
+1661969521560	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-08-31T18:12:02Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:12:02Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:12:02Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:12:02Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 350 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[2022-08-31T18:12:03Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:12:03Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-08-31T18:12:03Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[Child 22888, MediaDecoderStateMachine #1] WARNING: Decoder=227d19a5400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 22888, MediaDecoderStateMachine #1] WARNING: Decoder=227d19a5400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 6070 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1662001376643	geckodriver	INFO	Listening on 127.0.0.1:51774
+1662001379702	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "51775" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofilewd6cPO"
+*** You are running in headless mode.
+1662001380220	Marionette	INFO	Marionette enabled
+1662001380226	Marionette	INFO	Listening on port 51787
+WebDriver BiDi listening on ws://localhost:51775
+Read port: 51787
+1662001380356	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofilewd6cPO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51775/devtools/browser/5eecd3f6-1fe7-4d3e-aa8f-09963819fb83
+1662001384222	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-09-01T03:03:05Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T03:03:05Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T03:03:05Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T03:03:05Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T03:03:05Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T03:03:05Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[Child 2812, MediaDecoderStateMachine #1] WARNING: Decoder=2289f7f8100 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 2812, MediaDecoderStateMachine #1] WARNING: Decoder=2289f7f8100 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 2812, MediaDecoderStateMachine #1] WARNING: Decoder=2289f712a00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 2812, MediaDecoderStateMachine #1] WARNING: Decoder=2289f712a00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+1662001402372	Marionette	INFO	Stopped listening on port 51787
+1662001404428	geckodriver	INFO	Listening on 127.0.0.1:51849
+1662001407493	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "51850" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileRw0mI6"
+*** You are running in headless mode.
+1662001407828	Marionette	INFO	Marionette enabled
+1662001407833	Marionette	INFO	Listening on port 51859
+WebDriver BiDi listening on ws://localhost:51850
+Read port: 51859
+1662001408061	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofileRw0mI6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51850/devtools/browser/e29d09dd-e691-437d-b5a6-8bf5ecc3dbbe
+[2022-09-01T03:03:32Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T03:03:32Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T03:03:32Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T03:03:32Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 889 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/X5Wcp9Ugq7sZToVDu26YRTjm5OYazRuFrO0o8wz5lEo.js line 2 > eval line 777 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1662001476831	Marionette	INFO	Stopped listening on port 51859
+1662010434947	geckodriver	INFO	Listening on 127.0.0.1:56763
+1662010438008	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "56764" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofilegO2AoK"
+*** You are running in headless mode.
+1662010438401	Marionette	INFO	Marionette enabled
+1662010438405	Marionette	INFO	Listening on port 56783
+WebDriver BiDi listening on ws://localhost:56764
+Read port: 56783
+1662010438493	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofilegO2AoK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56764/devtools/browser/395e44cb-d165-43ab-83a5-1d6963bbe7e8
+1662010441102	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-09-01T05:34:02Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T05:34:02Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T05:34:02Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T05:34:02Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T05:34:02Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T05:34:02Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[Child 13380, MediaDecoderStateMachine #1] WARNING: Decoder=23794916700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 13380, MediaDecoderStateMachine #1] WARNING: Decoder=23794916700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[Child 13380, MediaDecoderStateMachine #1] WARNING: Decoder=2379494e100 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 13380, MediaDecoderStateMachine #1] WARNING: Decoder=2379494e100 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[2022-09-01T05:34:13Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T05:34:13Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T05:34:13Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T05:34:13Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+1662010458837	Marionette	INFO	Stopped listening on port 56783
+1662010460853	geckodriver	INFO	Listening on 127.0.0.1:56898
+1662010510543	geckodriver	INFO	Listening on 127.0.0.1:56961
+1662010513616	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56962" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofilee9cJlB"
+1662010513876	Marionette	INFO	Marionette enabled
+1662010513880	Marionette	INFO	Listening on port 56986
+WebDriver BiDi listening on ws://localhost:56962
+Read port: 56986
+1662010513992	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofilee9cJlB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56962/devtools/browser/c7c3d5c3-c907-4b1d-a207-83122769d15d
+1662010516590	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-09-01T05:35:16Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T05:35:17Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T05:35:17Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T05:35:17Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T05:35:17Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T05:35:17Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T05:35:17Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[Child 18584, MediaDecoderStateMachine #1] WARNING: Decoder=1f4e7b14700 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 18584, MediaDecoderStateMachine #1] WARNING: Decoder=1f4e7b14700 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[2022-09-01T05:35:29Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T05:35:29Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T05:35:29Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T05:35:29Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+1662010535358	Marionette	INFO	Stopped listening on port 56986
+1662010537309	geckodriver	INFO	Listening on 127.0.0.1:57097
+1662010540335	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57098" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofile0Y8GOM"
+1662010540600	Marionette	INFO	Marionette enabled
+1662010540604	Marionette	INFO	Listening on port 57117
+WebDriver BiDi listening on ws://localhost:57098
+Read port: 57117
+1662010540714	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Subhajit\\AppData\\Local\\Temp\\rust_mozprofile0Y8GOM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57098/devtools/browser/d2d8398a-95da-4b43-a3cc-247125489506
+1662010543391	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+[2022-09-01T05:35:44Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T05:35:44Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T05:35:44Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T05:35:44Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T05:35:44Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T05:35:44Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T05:35:44Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[Child 16160, MediaDecoderStateMachine #1] WARNING: Decoder=26a476b3500 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachine.cpp:370
+[Child 16160, MediaDecoderStateMachine #1] WARNING: Decoder=26a476b3500 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer __cdecl mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/checkouts/gecko/dom/media/MediaDecoderStateMachineBase.cpp:151
+[2022-09-01T05:35:56Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T05:35:56Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T05:35:56Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2022-09-01T05:35:56Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+1662010572047	Marionette	INFO	Stopped listening on port 57117
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
