@@ -23,10 +23,10 @@ box = []
 
 #mysql connection
 conn = connect(
-    host="youtube-data.cgje4yzuebxp.us-east-1.rds.amazonaws.com",
-    user="admin",
-    password="subho987",
-    database = "sys"
+    host="bj1tj4neicdlfx9e5sxi-mysql.services.clever-cloud.com",
+    user="ufgi5z1fldgybbtw",
+    password="uK0HGPH80WlVvS8j086W",
+    database = "bj1tj4neicdlfx9e5sxi"
 )
 cursor = conn.cursor()
 

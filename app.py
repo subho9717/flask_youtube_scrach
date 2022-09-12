@@ -9,10 +9,10 @@ import threading
 app = Flask(__name__)
 
 conn = connect(
-    host="youtube-data.cgje4yzuebxp.us-east-1.rds.amazonaws.com",
-    user="admin",
-    password="subho987",
-    database="sys"
+    host="bj1tj4neicdlfx9e5sxi-mysql.services.clever-cloud.com",
+    user="ufgi5z1fldgybbtw",
+    password="uK0HGPH80WlVvS8j086W",
+    database = "bj1tj4neicdlfx9e5sxi"
 )
 cursor = conn.cursor()
 
@@ -46,9 +46,9 @@ def youtube():  # put app's code here
         cursor.execute("select * from YouTubers_Table where Video_watch_url = '%s'" % data)
         fnl_data = [r for r in cursor.fetchall()]
 
-        # return redirect(url_for('index', data=fnl_data))
+        return redirect(url_for('index', data=fnl_data))
         # return jsonify({'data': videourl})
-        return url_for('index')
+        # return url_for('index')
 
         # return render_template("index.html",data=fnl_data)
 

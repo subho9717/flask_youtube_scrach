@@ -19,20 +19,20 @@ $(document).ready(function(){
     $('#preloader').show()
 
     // alert($('#videourl').val(),$('#videounum').val())
-    videourl = $('#videourl').val()
-    videounum = $('#videounum').val()
-    console.log(videounum,videourl)
-      $.ajax({
-        url: "/video_url",
-        type: "POST",
-        data: {'videourl':videourl,'videounum':videounum},
+  //   videourl = $('#videourl').val()
+  //   videounum = $('#videounum').val()
+  //   console.log(videounum,videourl)
+  //     $.ajax({
+  //       url: "/video_url",
+  //       type: "POST",
+  //       data: {'videourl':videourl,'videounum':videounum},
 
-      }).done(function(data){
-        console.log(data)
-        window.location = data;
-       })
-      e.preventDefault();
-  //
+  //     }).done(function(data){
+  //       console.log(data)
+  //       window.location = data;
+  //      })
+  //     e.preventDefault();
+  // //
   //
   });
   // var display =  $("#comment_table").css("display");
